@@ -1,9 +1,11 @@
-let stuffIdontKnowWhatItDoes;
+let dontRefresh;
 
 const testDragAndDrop = () => {
     try {
-        stuffIdontKnowWhatItDoes.forEach(element => element.destroy());
-    } catch (error) { }
+        dontRefresh.forEach(element => element.destroy());
+    } catch (error) { 
+        alert('It Broke. :(')
+    }
 
     const circleSize = 40;
     const positions = {};
@@ -23,7 +25,15 @@ const testDragAndDrop = () => {
 
         const keyName = box.replace(/\./, '').replace(/-/, ' ');
         progress[keyName] = 0;
-        return positions[keyName] = position
+        return positions[keyName] = position;
     })
+
+    updateBoxes();
+
+    dontRefresh = ['.red circle', '.blue circle'].map(circle =>{
+        const thisCircle = document.querySelector(circle)
+
+    })
+
 }
 
