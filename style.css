@@ -1,0 +1,29 @@
+.box, .circle {
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.stuff{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(230, 230, 230);
+    margin: auto;
+}
+
+.box{
+    /* display: flex; */
+}
+
+.circle {
+    border-radius: 50%;
+}
