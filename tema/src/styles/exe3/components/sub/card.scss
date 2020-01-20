@@ -1,0 +1,50 @@
+@mixin middle-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .middle-image-container {
+    display: flex;
+    margin: 0 auto;
+    width: 7vw;
+    height: 7vw;
+    padding: 5%;
+    background-color: $darkGrey;
+    border-radius: 50%;
+  }
+  @mixin middle-card-image {
+    height: 100%;
+    margin: auto;
+  }
+  @mixin middle-card-title {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+  
+  @mixin middle-card-text {
+  }
+  
+  @mixin middle-card-button {
+    text-transform: uppercase;
+  }
+
+  
+[class^="middle-card"] {
+    @include middle-card();
+    img {
+      @include middle-card-image;
+    }
+  }
+  
+  [class^="middle-card-title"] {
+    @include middle-card-title();
+  }
+  [class^="middle-card-text"] {
+    @include middle-card-text();
+  }
+  
+  [class^="middle-card-button"] {
+    @include middle-card-button();
+  }
+  

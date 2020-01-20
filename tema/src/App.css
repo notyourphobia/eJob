@@ -1,0 +1,452 @@
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700&display=swap");
+* {
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: gray;
+  margin: 0;
+}
+
+.logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.react-menu {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    -webkit-animation: logo-spin infinite 20s linear;
+            animation: logo-spin infinite 20s linear;
+  }
+}
+
+@-webkit-keyframes logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.textRows,
+.buttonsRows {
+  text-align: center;
+}
+
+.myButtons {
+  margin: 10px;
+}
+
+.textRows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: red;
+  min-height: 5.3vh;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.logo-container {
+  background-color: white;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto 0;
+}
+
+#v3-security {
+  margin: auto 0;
+  width: 18%;
+}
+
+.header-content {
+  background-color: yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  -webkit-transform: translateX(2%);
+          transform: translateX(2%);
+}
+
+.notimage {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-transform: uppercase;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.header-content-contact {
+  background-color: purple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  font-size: 20%;
+}
+
+.header-content-number {
+  background-color: orange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 20%;
+}
+
+#phone-icon {
+  width: 100%;
+  background-color: red;
+}
+
+.header-content-contact-quote {
+  background-color: green;
+}
+
+.header-content-contact-quote h5 {
+  font-size: 1.6vw;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  padding: 0;
+}
+
+.navbar-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  margin: auto;
+}
+
+.navbar-content a {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.navbar-content a h5 {
+  font-size: 1.1vw;
+}
+
+.point {
+  display: block;
+  width: 0.2vw;
+  height: 0.2vw;
+  margin: 0 0.6vw;
+  background-color: red;
+}
+
+.home,
+.about-us,
+.v3-cares,
+.products,
+.services,
+.contact {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100%;
+}
+
+.home a,
+.about-us a,
+.v3-cares a,
+.products a,
+.services a,
+.contact a {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.home h5,
+.about-us h5,
+.v3-cares h5,
+.products h5,
+.services h5,
+.contact h5 {
+  white-space: nowrap;
+  font-size: 1.2vw;
+  margin: 0;
+}
+
+#bbb {
+  width: 3vw;
+  height: auto;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: blue;
+  height: 34.5vh;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.main-content {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 34.7%;
+      flex-basis: 34.7%;
+  -webkit-transform: translate3d(-39%, -3%, 0);
+          transform: translate3d(-39%, -3%, 0);
+  padding: 1.5vh 2.4%;
+}
+
+.main-title {
+  text-transform: uppercase;
+  font-size: 3.06vw;
+  line-height: 90%;
+  font-weight: 900;
+  margin-bottom: 4%;
+}
+
+.main-title p {
+  margin: 0;
+}
+
+.main-text {
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 130%;
+}
+
+.main-text p {
+  margin: 0;
+}
+
+.main-quote {
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 100%;
+  background-color: red;
+  padding: 4% 6%;
+  margin: 6% 0 2%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1.2vw;
+}
+
+.main-quote p {
+  margin: 0;
+}
+
+.middle {
+  background-color: green;
+  height: 30.6vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 15%;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 1.1vw;
+}
+
+.middle-all-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+}
+
+.middle-image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 7vw;
+  height: 7vw;
+  padding: 5%;
+  background-color: #707070;
+  border-radius: 50%;
+}
+
+[class^="middle-card"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+[class^="middle-card"] img {
+  height: 100%;
+  margin: auto;
+}
+
+[class^="middle-card-title"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+}
+
+[class^="middle-card-button"] {
+  text-transform: uppercase;
+}
+
+.middle-about-us {
+  text-transform: uppercase;
+}
+
+.footer {
+  background-color: purple;
+  height: 29.6vh;
+}
+
+.footer {
+  background-color: purple;
+  height: 29.6vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-clients-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+[class^="footer-client-container"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+[class^="footer-client-box"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+[class^="footer-client"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+[class^="footer-client-rating"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=App.css.map */

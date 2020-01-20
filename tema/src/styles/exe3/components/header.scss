@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  min-height: 5.3vh;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.logo-container {
+  background-color: white;
+  flex-direction: row-reverse;
+  width: fit-content;
+  height: fit-content;
+  margin: auto 0;
+}
+
+#v3-security {
+  margin: auto 0;
+  width: 18%;
+}
+
+.header-content {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transform: translateX(2%);
+}
+
+.notimage {
+  flex-direction: column;
+  text-transform: uppercase;
+  height: fit-content;
+}
+
+.header-content-contact {
+  background-color: purple;
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 20%;
+}
+
+.header-content-number {
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  font-size: 20%;
+}
+
+#phone-icon {
+  width: 100%;
+  background-color: red;
+}
+
+.header-content-contact-quote {
+  background-color: green;
+
+  h5 {
+    font-size: 1.6vw;
+  }
+}
+
+@import "./sub/navbar.scss";
+
+
+
+#bbb {
+  width: 3vw;
+  height: auto;
+}
+
+// @import './sub/navbar.scss';

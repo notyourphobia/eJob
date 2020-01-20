@@ -1,0 +1,52 @@
+@mixin buttons {
+  width: fit-content;
+  height: 100%;
+  a {
+    width: fit-content;
+    height: fit-content;
+  }
+  h5 {
+    white-space: nowrap;
+    font-size: 1.2vw;
+    margin: 0;
+  }
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: auto;
+  a {
+    width: fit-content;
+    height: fit-content;
+    h5 {
+      font-size: 1.1vw;
+    }
+  }
+}
+
+.point {
+  display: block;
+  width: 0.2vw;
+  height: 0.2vw;
+
+  margin: 0 0.6vw;
+  background-color: red;
+}
+
+.home,
+.about-us,
+.v3-cares,
+.products,
+.services,
+.contact {
+  @include buttons();
+}

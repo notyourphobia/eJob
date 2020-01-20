@@ -1,0 +1,70 @@
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: blue;
+  height: 34.5vh;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.main-content {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 34.7%;
+      flex-basis: 34.7%;
+  -webkit-transform: translate3d(-39%, -3%, 0);
+          transform: translate3d(-39%, -3%, 0);
+  padding: 1.5vh 2.4%;
+}
+
+.main-title {
+  text-transform: uppercase;
+  font-size: 3.06vw;
+  line-height: 90%;
+  font-weight: 900;
+  margin-bottom: 4%;
+}
+
+.main-title p {
+  margin: 0;
+}
+
+.main-text {
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 130%;
+}
+
+.main-text p {
+  margin: 0;
+}
+
+.main-quote {
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 100%;
+  background-color: red;
+  padding: 4% 6%;
+  margin: 6% 0 2%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1.2vw;
+}
+
+.main-quote p {
+  margin: 0;
+}
+/*# sourceMappingURL=main.css.map */

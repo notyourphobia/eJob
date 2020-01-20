@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS;AACT,YAAY,CAAC;EACT,UAAU,EAAE,MAAM;CACrB;;AACD,AAAA,UAAU,CAAA;EACN,MAAM,EAAE,IAAI;CAEb;;AACD,AAAA,SAAS,CAAC;EACR,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CACvB",
+    "sources": [
+        "exe2.scss"
+    ],
+    "names": [],
+    "file": "exe2.css"
+}

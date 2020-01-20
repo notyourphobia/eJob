@@ -1,0 +1,83 @@
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  padding: 0;
+}
+
+.navbar-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  margin: auto;
+}
+
+.navbar-content a {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.navbar-content a h5 {
+  font-size: 1.1vw;
+}
+
+.point {
+  display: block;
+  width: 0.2vw;
+  height: 0.2vw;
+  margin: 0 0.6vw;
+  background-color: red;
+}
+
+.home,
+.about-us,
+.v3-cares,
+.products,
+.services,
+.contact {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100%;
+}
+
+.home a,
+.about-us a,
+.v3-cares a,
+.products a,
+.services a,
+.contact a {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.home h5,
+.about-us h5,
+.v3-cares h5,
+.products h5,
+.services h5,
+.contact h5 {
+  white-space: nowrap;
+  font-size: 1.2vw;
+  margin: 0;
+}
+/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,28 @@
+.middle {
+  background-color: green;
+  height: 30.6vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 0 15%;
+
+  font-family: "Maven Pro", sans-serif;
+  font-size: 1.1vw;
+}
+
+.middle-all-cards {
+  display: flex;
+  justify-content: baseline;
+}
+
+@import "./sub/card.scss";
+
+
+.middle-about-us {
+  text-transform: uppercase;
+}
+
+[class^="middle-text-"] {
+}
