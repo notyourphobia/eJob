@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button'
 
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Menu = () =>
     <Col className='react-menu'>
@@ -22,11 +22,7 @@ const Menu = () =>
                         Home
                 </Button>
                 </Link>
-                <Link to='/exe1'>
-                    <Button variant='info' className='myButtons' >
-                        Exe1
-                </Button>
-                </Link>
+
                 <Link to='/exe2'>
                     <Button variant='info' className='myButtons'>
                         Exe2

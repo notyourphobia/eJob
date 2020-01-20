@@ -1,31 +1,92 @@
-.footer-client-1-container {
-}
-
-.footer-client-1-speech-bubble {
-}
-
-.footer-client-1 {
-}
-
-#alice {
-}
-
-.footer-client-2-rating {
-}
-
-
-
-.footer-client-2-container {
-}
-
-.footer-client-2-speech-bubble {
-}
-
-.footer-client-2 {
-}
-
-#john {
-}
-
-.footer-client-2-rating {
-}
+.footer-clients-comments {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0.6vw;
+  }
+  
+  .footer-client-speech-bubble-1 {
+    background: url("./components/resources/double-quotes.png") top left no-repeat,
+      url("./components/resources/double-quotes-rotated.png") bottom right no-repeat;
+    background-size: 4%;
+    background-position: 2% 12%, 98% 88%;
+  
+    margin-top: 1vh;
+    align-self: center;
+    position: relative;
+    font-family: arial;
+    font-size: 1vw;
+    background-color: $lightGrey;
+    color: $darkGrey;
+    border-radius: 5px;
+    padding: 2vw;
+    max-width: 31vw;
+    text-align: center;
+  }
+  
+  .footer-client-speech-bubble-2 {
+    background: url("./components/resources/double-quotes.png") top left no-repeat,
+      url("./components/resources/double-quotes-rotated.png") bottom right no-repeat;
+    background-size: 4%;
+    background-position: 2% 12%, 98% 88%;
+  
+    margin-bottom: 0.5vh;
+    align-self: center;
+    position: relative;
+    font-family: arial;
+    font-size: 1vw;
+    background-color: $lightGrey;
+    color: $darkGrey;
+    border-radius: 5px;
+    padding: 2vw;
+    max-width: 31vw;
+    text-align: center;
+  }
+  
+  .footer-client-speech-bubble :after {
+    content: "";
+    border: 1vw solid transparent;
+    border-left: 1vw solid $lightGrey;
+    border-top: 1vw solid $lightGrey;
+    position: absolute;
+    bottom: -1.7vw;
+    left: 15%;
+  }
+  
+  [class^="footer-client-container"] {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  [class^="footer-client-box"] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1vw 0;
+  }
+  
+  .footer-clients {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  [class^="footer-client"] {
+    display: flex;
+  }
+  
+  .name {
+    line-height: 200%;
+    font-size: 1.2vw;
+    padding-left: 1vw;
+  }
+  
+  [class^="footer-client-rating"] {
+    display: flex;
+    letter-spacing: -2px;
+    font-size: 1.8vw;
+  }
+  
+  #alice,
+  #john {
+    width: 2.7vw;
+    height: 2.7vw;
+  }

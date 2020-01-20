@@ -2,14 +2,11 @@ import React from 'react';
 import './App.css';
 
 import Menu from './components/menu';
-import Exe1 from './components/exe1';
 import Exe2 from './components/exe2';
 import Exe3 from './components/exe3';
 
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-// import Button from 'react-bootstrap/Button'
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -79,17 +76,6 @@ export default class App extends React.Component {
               </Container>
             </Route>
 
-            <Route path='/exe1' >
-              <Container>
-
-                <Menu />
-
-
-                <Row>
-                  <Exe1 />
-                </Row>
-              </Container>
-            </Route>
 
 
 

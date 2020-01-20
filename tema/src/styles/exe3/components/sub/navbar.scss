@@ -1,3 +1,4 @@
+
 @mixin buttons {
   width: fit-content;
   height: 100%;
@@ -5,11 +6,10 @@
     width: fit-content;
     height: fit-content;
   }
-  h5 {
-    white-space: nowrap;
-    font-size: 1.2vw;
-    margin: 0;
-  }
+
+  white-space: nowrap;
+  font-size: 1.16vw;
+  margin: 0;
 }
 
 .navbar {
@@ -23,12 +23,12 @@
   justify-content: center;
   align-items: center;
   padding: 0;
-  margin: auto;
+  margin: 1.1vw auto 0 auto;
   a {
     width: fit-content;
     height: fit-content;
     h5 {
-      font-size: 1.1vw;
+      font-size: 1.125vw;
     }
   }
 }
@@ -38,8 +38,8 @@
   width: 0.2vw;
   height: 0.2vw;
 
-  margin: 0 0.6vw;
-  background-color: red;
+  margin: 0 0.66vw;
+  background-color: $buttonGrey;
 }
 
 .home,

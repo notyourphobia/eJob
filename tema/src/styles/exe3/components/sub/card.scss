@@ -1,15 +1,19 @@
+
 @mixin middle-card {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    margin-top: 1vh;
+    justify-content: space-between;
   }
   .middle-image-container {
     display: flex;
-    margin: 0 auto;
-    width: 7vw;
-    height: 7vw;
-    padding: 5%;
-    background-color: $darkGrey;
+  
+    width: 6vw;
+    height: 6vw;
+    padding: 7%;
+    background-color: $buttonGrey;
     border-radius: 50%;
   }
   @mixin middle-card-image {
@@ -20,17 +24,31 @@
     display: flex;
     justify-content: center;
     text-transform: uppercase;
+    font-weight: 900;
+    width: 70%;
+    font-size: 1vw;
+    margin: .7vh 0 auto;
+    color: $mainBlue;
   }
   
   @mixin middle-card-text {
+    align-items: baseline;
+    margin: .1vh;
+    color: $darkGrey;
+    
   }
   
   @mixin middle-card-button {
     text-transform: uppercase;
-  }
-
+    justify-content: baseline;
+    border: 1px solid $darkGrey;
+    width: 45%;
   
-[class^="middle-card"] {
+    border-top-left-radius: 20% 80% ;
+    border-bottom-right-radius: 20% 80% ;
+  }
+  
+  [class^="middle-card"] {
     @include middle-card();
     img {
       @include middle-card-image;
@@ -47,4 +65,3 @@
   [class^="middle-card-button"] {
     @include middle-card-button();
   }
-  

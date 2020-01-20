@@ -2,83 +2,23 @@
 
 * {
   margin: 0;
+  font-family: "Maven Pro", sans-serif;
 }
 
 body {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(128, 128, 128);
+  overflow: hidden;
   margin: 0;
 }
 
 $mainBlue: #00bae9;
 $lightGrey: #efefef;
 $darkGrey: #707070;
+$buttonGrey: #404041;
 
 @import "styles/reactStuff.scss";
 @import "styles/exe1/exe1.scss";
 @import "styles/exe2/exe2.scss";
 @import "styles/exe3/exe3.scss";
 
-.footer {
-  background-color: purple;
-  height: 29.6vh;
-  display: flex;
-}
-
-.footer-client-container {
-}
-
-.try {
-}
-
-.footer-clients-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-clients-comments {
-}
-
-.footer-client-title {
-}
-/////////////////////////////////
-[class^="footer-clien-speech-bubble"] {
-}
-
-[class^="footer-client-container"] {
-  display: flex;
-  flex-direction: column;
-}
-
-[class^="footer-client-box"] {
-  display: flex;
-}
-
-[class^="footer-client"] {
-  display: flex;
-}
-
-[class^="footer-client-rating"] {
-  display: flex;
-}
-
-#alice,
-#john {
-}
-
-//////////////////////////////////
-.footer-last {
-}
-
-.footer-last-next-arrow {
-}
-
-.footer-video-container {
-}
-
-.footer-video {
-}
-
-.footer-video-text {
-}
